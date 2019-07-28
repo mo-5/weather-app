@@ -4,9 +4,9 @@ This project is completly open source and if you would like to contribute please
 
 ## To run the application on your localhost 
 
-  `
+  ``
   git clone https://github.com/MohamedRadwan/react-weather-app
   cd react-weather-app
   npm start
-  `
+  ``
   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
