@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
 import Form from './app_component/form.component';
 import 'weather-icons/css/weather-icons.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
