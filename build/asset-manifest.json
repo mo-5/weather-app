@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1931a0c3.chunk.css",
+    "main.js": "/static/js/main.f83a79d2.chunk.js",
+    "main.js.map": "/static/js/main.f83a79d2.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.bc03ab51.chunk.css": "/static/css/2.bc03ab51.chunk.css",
+    "static/js/2.3c097907.chunk.js": "/static/js/2.3c097907.chunk.js",
+    "static/js/2.3c097907.chunk.js.map": "/static/js/2.3c097907.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d62a6b3c08c18fa560ef3fc5571cba8b.js": "/precache-manifest.d62a6b3c08c18fa560ef3fc5571cba8b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.bc03ab51.chunk.css.map": "/static/css/2.bc03ab51.chunk.css.map",
+    "static/css/main.1931a0c3.chunk.css.map": "/static/css/main.1931a0c3.chunk.css.map",
+    "static/media/index.css": "/static/media/banner.f07ebb82.jpg",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/weather-icons.css": "/static/media/weathericons-regular-webfont.ed0943f2.svg"
+  }
+}
