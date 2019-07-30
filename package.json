@@ -1,6 +1,6 @@
 {
   "name": "weather-app",
-  "homepage": "https://www.mradwan.com/weather",
+  "homepage": "https://usr/share/nginx/html/weather",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

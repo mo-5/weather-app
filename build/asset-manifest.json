@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/weather/static/css/main.0ba905b0.chunk.css",
-    "main.js": "/weather/static/js/main.566420a1.chunk.js",
-    "main.js.map": "/weather/static/js/main.566420a1.chunk.js.map",
-    "runtime~main.js": "/weather/static/js/runtime~main.6cff1e35.js",
-    "runtime~main.js.map": "/weather/static/js/runtime~main.6cff1e35.js.map",
-    "static/css/2.9cd7c9e0.chunk.css": "/weather/static/css/2.9cd7c9e0.chunk.css",
-    "static/js/2.049b2344.chunk.js": "/weather/static/js/2.049b2344.chunk.js",
-    "static/js/2.049b2344.chunk.js.map": "/weather/static/js/2.049b2344.chunk.js.map",
-    "index.html": "/weather/index.html",
-    "precache-manifest.2ef6575b70d4b885c41c4f4a8587ddd0.js": "/weather/precache-manifest.2ef6575b70d4b885c41c4f4a8587ddd0.js",
-    "service-worker.js": "/weather/service-worker.js",
-    "static/css/2.9cd7c9e0.chunk.css.map": "/weather/static/css/2.9cd7c9e0.chunk.css.map",
-    "static/css/main.0ba905b0.chunk.css.map": "/weather/static/css/main.0ba905b0.chunk.css.map",
-    "static/media/index.css": "/weather/static/media/banner.f07ebb82.jpg",
-    "static/media/weather-icons.css": "/weather/static/media/weathericons-regular-webfont.ed0943f2.svg"
+    "main.css": "/share/nginx/html/weather/static/css/main.617ffdb0.chunk.css",
+    "main.js": "/share/nginx/html/weather/static/js/main.85f84e1c.chunk.js",
+    "main.js.map": "/share/nginx/html/weather/static/js/main.85f84e1c.chunk.js.map",
+    "runtime~main.js": "/share/nginx/html/weather/static/js/runtime~main.0f57fd06.js",
+    "runtime~main.js.map": "/share/nginx/html/weather/static/js/runtime~main.0f57fd06.js.map",
+    "static/css/2.2fe187c5.chunk.css": "/share/nginx/html/weather/static/css/2.2fe187c5.chunk.css",
+    "static/js/2.049b2344.chunk.js": "/share/nginx/html/weather/static/js/2.049b2344.chunk.js",
+    "static/js/2.049b2344.chunk.js.map": "/share/nginx/html/weather/static/js/2.049b2344.chunk.js.map",
+    "index.html": "/share/nginx/html/weather/index.html",
+    "precache-manifest.df5ed8df0f97b18fbd8cccf338c42b27.js": "/share/nginx/html/weather/precache-manifest.df5ed8df0f97b18fbd8cccf338c42b27.js",
+    "service-worker.js": "/share/nginx/html/weather/service-worker.js",
+    "static/css/2.2fe187c5.chunk.css.map": "/share/nginx/html/weather/static/css/2.2fe187c5.chunk.css.map",
+    "static/css/main.617ffdb0.chunk.css.map": "/share/nginx/html/weather/static/css/main.617ffdb0.chunk.css.map",
+    "static/media/index.css": "/share/nginx/html/weather/static/media/banner.f07ebb82.jpg",
+    "static/media/weather-icons.css": "/share/nginx/html/weather/static/media/weathericons-regular-webfont.ed0943f2.svg"
   }
 }
