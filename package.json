@@ -10,6 +10,7 @@
     "react-autosuggest": "^9.4.3",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
+    " favicon": "./src/assets/weather.png",
     "weather-icons": "git+https://github.com/erikflowers/weather-icons.git"
   },
   "scripts": {
