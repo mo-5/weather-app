@@ -12,9 +12,11 @@ form input[name='country'] {
 
 #sel {
   background-color: transparent;
+  box-shadow: none !important;
   font-size: 20px;
   height: 44px;
   border: 0;
   border-bottom: 2px solid whitesmoke;
   border-radius: 0;
+  color: black !important;
 }

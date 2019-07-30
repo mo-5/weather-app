@@ -6,8 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: url('./assets/banner.jpg');
-  background-size: cover;
-  background-repeat: no repeat;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 code {

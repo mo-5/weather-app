@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Form from './app_component/form.component';
 import 'weather-icons/css/weather-icons.css';
@@ -20,7 +19,8 @@ class App extends React.Component {
       temp_max: undefined,
       temp_min: undefined,
       description: '',
-      error: false
+      error: false,
+      serverError: undefined
     };
     this.weatherIcon = {
       Thunderstorm: 'wi-thunderstorm',
@@ -71,15 +71,26 @@ class App extends React.Component {
       );
       const response = await api_call.json();
       console.log(response);
-      this.setState({
-        city: `${response.name}, ${response.sys.country}`,
-        celsius: response.main.temp,
-        temp_max: response.main.temp_max,
-        temp_min: response.main.temp_min,
-        description: response.weather[0].description,
-        error: false
-      });
-      this.get_WeatherIcon(this.weatherIcon, response.weather[0].id);
+
+      if (
+        Number(response.cod) === 401 ||
+        Number(response.cod) === 404 ||
+        Number(response.cod) === 429 ||
+        Number(response.cod) === 500
+      ) {
+        this.setState({ serverError: response.message });
+      } else {
+        this.setState({
+          city: `${response.name}, ${response.sys.country}`,
+          celsius: response.main.temp,
+          temp_max: response.main.temp_max,
+          temp_min: response.main.temp_min,
+          description: response.weather[0].description,
+          error: false,
+          serverError: undefined
+        });
+        this.get_WeatherIcon(this.weatherIcon, response.weather[0].id);
+      }
     } else {
       this.setState({ error: true });
     }
@@ -88,7 +99,11 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <Form loadweather={this.getWeather} error={this.state.error} />
+        <Form
+          loadweather={this.getWeather}
+          error={this.state.error}
+          serverError={this.state.serverError}
+        />
         <Weather
           city={this.state.city}
           country={this.state.country}
