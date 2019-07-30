@@ -1,6 +1,6 @@
 {
   "name": "weather-app",
-  "homepage": "https://usr/share/nginx/html/weather",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
