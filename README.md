@@ -12,4 +12,3 @@ This project is completly open source and if you would like to contribute please
   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
   
   
-  ### This application is currently hosted on [https://www.mradwan.tk/demo/weather/](https://www.mradwan.tk/demo/weather/)
